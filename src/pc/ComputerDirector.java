@@ -1,4 +1,8 @@
-class ComputerDirector {
+package pc;
+
+import pc.builder.ComputerBuilder;
+
+public class ComputerDirector {
     private ComputerBuilder builder;
 
     public ComputerDirector(ComputerBuilder builder) {

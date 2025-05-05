@@ -1,9 +1,13 @@
-class GamingComputerBuilder implements ComputerBuilder {
-    private CPU cpu = CPU.INTEL_CORE_I5;
-    private RAM ram = RAM.RAM_32GB;
-    private GraphicsCard graphicsCard = GraphicsCard.NVIDIA_RTX_3060_TI;
-    private PowerSupply powerSupply = PowerSupply.EXEGATE_UNS600_600W;
-    private HardDrive hardDrive = HardDrive.KINGSTON_SSD_500GB;
+package pc.builder;
+import hardware.*;
+import pc.Computer;
+
+public class MultimediaComputerBuilder implements ComputerBuilder {
+    private CPU cpu = CPU.AMD_RYZEN_5;
+    private RAM ram = RAM.RAM_16GB;
+    private GraphicsCard graphicsCard = GraphicsCard.AMD_RADEON_RX_580;
+    private PowerSupply powerSupply = PowerSupply.EXEGATE_500PPE_500W;
+    private HardDrive hardDrive = HardDrive.WD_SSD_1TB;
 
     @Override
     public ComputerBuilder addCPU(CPU cpu) {

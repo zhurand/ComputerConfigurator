@@ -5,13 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d48fa391-f4e2-4bde-8f8b-af11888e1543" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ComputerConfigurator.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CPU.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hardware/CPU.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Computer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pc/Computer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ComputerBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pc/ComputerBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ComputerDirector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pc/ComputerDirector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CustomComputerBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pc/CustomComputerBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GamingComputerBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pc/GamingComputerBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GraphicsCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hardware/GraphicsCard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HardDrive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hardware/HardDrive.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MultimediaComputerBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pc/MultimediaComputerBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OfficeComputerBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pc/OfficeComputerBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PowerSupply.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hardware/PowerSupply.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RAM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hardware/RAM.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +52,7 @@
     &quot;Application.Main.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/a_zhu/IdeaProjects/ComputerConfigurator/src/Main.java&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
@@ -67,13 +74,6 @@
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="SharedIndexes">
-    <attachedChunks>
-      <set>
-        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-4f524021" />
-      </set>
-    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">

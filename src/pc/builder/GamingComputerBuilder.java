@@ -1,9 +1,13 @@
-public class CustomComputerBuilder implements ComputerBuilder {
-    private CPU cpu = null;
-    private RAM ram = null;
-    private GraphicsCard graphicsCard = null;
-    private PowerSupply powerSupply = null;
-    private HardDrive hardDrive = null;
+package pc.builder;
+import hardware.*;
+import pc.Computer;
+
+public class GamingComputerBuilder implements ComputerBuilder {
+    private CPU cpu = CPU.INTEL_CORE_I5;
+    private RAM ram = RAM.RAM_32GB;
+    private GraphicsCard graphicsCard = GraphicsCard.NVIDIA_RTX_3060_TI;
+    private PowerSupply powerSupply = PowerSupply.EXEGATE_UNS600_600W;
+    private HardDrive hardDrive = HardDrive.KINGSTON_SSD_500GB;
 
     @Override
     public ComputerBuilder addCPU(CPU cpu) {

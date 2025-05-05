@@ -1,3 +1,5 @@
+package hardware;
+
 public enum GraphicsCard {
     NVIDIA_RTX_3060_TI ("GeForce RTX 3060 Ti"),
     AMD_RADEON_RX_580 ("AMD Rаdеоn RХ 580"),

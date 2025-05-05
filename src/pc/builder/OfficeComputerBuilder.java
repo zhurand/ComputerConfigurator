@@ -1,4 +1,8 @@
-class OfficeComputerBuilder implements ComputerBuilder {
+package pc.builder;
+import hardware.*;
+import pc.Computer;
+
+public class OfficeComputerBuilder implements ComputerBuilder {
     private CPU cpu = CPU.INTEL_CORE_I3;
     private RAM ram = RAM.RAM_8GB;
     private GraphicsCard graphicsCard = GraphicsCard.INTEGR_GRAPH;

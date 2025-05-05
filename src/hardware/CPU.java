@@ -1,3 +1,5 @@
+package hardware;
+
 public enum CPU {
     INTEL_CORE_I3 ("Intel Core i3"),
     INTEL_CORE_I5 ("Intel Core i5"),

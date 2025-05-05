@@ -1,9 +1,13 @@
+package pc;
+
+import hardware.*;
+
 /**
  * Класс компьютера со свойствами <b>cpu</b>, <b>ram</b>, <b>graphicsCard</b>, <b>powerSupply<b/>, <b>hardDrive<b/>.
  * @autor zhurand
  * @version 1.0
  */
-class Computer {
+public class Computer {
     /** Поле процессор */
     private CPU cpu;
     /** Поле оперативная память */

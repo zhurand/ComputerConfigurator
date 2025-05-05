@@ -1,3 +1,5 @@
+package hardware;
+
 public enum HardDrive {
     KINGSTON_SSD_120GB ("KINGSTON SSD 120GB"),
     KINGSTON_SSD_500GB ("KINGSTON SSD 500GB"),
